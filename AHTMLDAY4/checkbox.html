@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age" checked/>
+        <label for="age"> I am 18+</label>
+        <div>
+            <input type="radio" name="fruit" id="apple"/>
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="banana"/>
+            <label for="apple">banana</label>
+            <input type="radio" name="fruit" id="grapes"/>
+            <label for="apple">grapes</label>
+            <input type="radio" name="fruit" id="orange"/>
+            <label for="apple">orange</label>
+            <input type="radio" name="fruit" id="litchi"/>
+            <label for="apple">litchi</label>
+        </div>
+        <br>
+        <div>
+            Choose your Subjects
+            <input type="checkbox" id="math" name="Subjects" value="math"/>
+            <label for="math">Math</label>
+            <input type="checkbox" id="science" name="Subjects" value="sci"/>
+            <label for="sciences">sciences</label>
+            <input type="checkbox" id="english" name="Subjects" value="eng"/>
+            <label for="english">English</label>
+            <input type="checkbox" id="hindi" name="Subjects" value="hin"/>
+            <label for="Hindi">Hindi</label>
+             <input type="checkbox" id="Computer" name="Subjects" value="comp"/>
+            <label for="Computer">Computer</label>
+        </div>
+        <div>
+            Choose Your Proffession
+            <select name="Proffession" id="Proffession">
+              <option>Select your option </option>
+              <option value="stu"selected>Student</option>
+              <option value="dev">Devloper</option>
+              <option value="Math Sir">Teacher</option>
+            </select>
+        </div>
+        <label for="vol">select your level :</label>
+        <input 
+          type="range" 
+          id="vol"
+          min="o"
+          max="100" 
+          name="vol" 
+          step="10"
+         value="50
+        "/>
+        <br>
+        <label for="feedback">please give your valuable feedback :</label>
+        <textarea 
+        id="feedback" 
+        name="feedback" 
+        rows="5" 
+        cols="50"
+        placeholder="write your feedback here"
+        ></textarea>
+        <button>submit</button>
+    </form>
+</body>
+</html>

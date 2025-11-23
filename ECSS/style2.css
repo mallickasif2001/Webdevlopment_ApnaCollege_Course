@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    text-decoration: wavy red underline;
+    letter-spacing: 5px;
+    font-family: papyrus;
+}
+h3{
+    text-align: right;
+    text-decoration: greenyellow line-through;
+}
+h2{
+    text-align: justify;
+    font-weight: 400;
+    text-decoration: double blue overline;
+
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
